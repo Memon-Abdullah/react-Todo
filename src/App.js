@@ -1,6 +1,6 @@
 import React, { useState, useEffect }  from "react";
 import { Header } from "./components/Header";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form } from  './components/Form';
 import { TodoList } from "./components/TodoList";
 import '../src/App.css';
@@ -38,10 +38,7 @@ const App = ()=> {
         <div>
           <TodoList todos={todos} setTodos = {setTodos} setEditTodo = {setEditTodo} />
         </div>
-      </div>
-      
-      
-      
+      </div>  
     </div> 
   );
 }
